@@ -223,7 +223,7 @@ async def handler(event):
         except ValueError:
             await m.edit("**ʏᴏᴜ ᴍᴜsᴛ Jᴏɪɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ʙᴇғᴏʀᴇ sᴛᴀʀᴛɪɴɢ ғᴏʀᴡᴀʀᴅɪɴɢ. ᴜsᴇ /join**")
             return
-        print("Finished")
+        print("Done Boss 🤡")
         stop = str(datetime.datetime.now())
         diff = datetime.datetime.strptime(start, datetimeFormat) - datetime.datetime.strptime(stop, datetimeFormat)
         duration = abs(diff)
